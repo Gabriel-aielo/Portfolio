@@ -1,0 +1,119 @@
+body{
+    height: 100%;
+}
+
+
+
+.linkTopo{
+    background:rgb(245, 245, 245);
+    height: 70px;
+}
+
+.linkTopo a{
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    padding: 10px;
+    border-radius: 5px;  
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.linkTopo a:hover, .linkTopo a:focus{
+    text-decoration: none;
+}
+
+#bloco1{
+    background: url(./imagens/Model3.jpg)fixed no-repeat center;
+    height: 800px;
+    background-size: cover;
+}
+
+#bloco2{
+    background: url(./imagens/Modelx.jpg)fixed no-repeat center;
+    height: 800px;
+    background-size: cover;
+}
+
+#bloco3{
+    background: url(./imagens/ModelS.jpg)fixed no-repeat center;
+    height: 800px;   
+    background-size: cover;
+}
+
+.barraNavegacao{
+    border-radius: 5px;
+    background:rgb(245, 245, 245);
+}
+
+.barraNavegacao ul{
+    width: 100%;
+}
+
+.barraNavegacaoMenu{
+    float: right;
+    width: 70%;
+    height: 60px;
+    border-radius: 10px;
+}
+.barraNavegacaoMenu a{
+    margin-left: 5px;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.barraNavegacaoMenu a:hover{
+    text-decoration: none;
+    background: rgba(131, 131, 131, 0.582);
+    padding: 5px 15px;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+#logoTesla{
+    position: relative;
+    bottom: 25px;
+    left: 50px;
+}
+
+.barraNavegacaoEsquerda{
+    float: right;
+}
+
+.nomeModelo h2{
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+
+
+
+.botao{
+    border: 1px solid red;
+    margin: 0 auto;
+    width:250px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn1{
+    background: rgb(235, 235, 235);
+    color: black;
+}
+
+.btn2{
+    background: rgb(59, 59, 59);
+    color: white;
+}
+
+.btn1:hover{
+    color:rgb(134, 134, 134);
+}
+
+.btn2:hover{
+    color: black;
+}

@@ -1,0 +1,172 @@
+
+/*Página index*/
+body{
+    font-family: 'roboto',Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.topo {
+    background-color: rgb(255, 184, 30);
+    width: 1480px;
+    position:relative;
+    color: rgb(65, 65, 65);
+    height: 170px;
+    border-bottom:thin;
+    position: relative;
+    right: 8px;
+    bottom: 8px; 
+    box-shadow: 0px 0px 10px 0px;
+}
+
+#logo{
+    font-size: 35px;
+    padding: 15px 15px 60px 15px;
+    font-weight: bold;
+    text-align: center; 
+}
+
+#tec {
+    display: inline;
+}
+
+#blog { 
+    display: inline;
+    color: white;
+    position: relative;
+    right: 10px;
+}
+
+#navegacao {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 17px;
+    background-color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#a1 {
+    padding: 10px 25px 11px 25px;
+    text-decoration: none;
+    color: rgb(255, 184, 30);
+}
+
+#a1:hover{
+    color: white;
+    background-color: rgb(255, 184, 30);  
+}
+
+.corpo1 {
+    float: left;
+    margin: 50px 0px 0px 220px;
+}
+
+#titulo{
+   color: rgb(255, 184, 30);
+   font-weight: bolder;
+   font-size: 25px;
+}
+
+#sub{
+    font-size: 15px;
+}
+
+#imagem2 {
+    border: 3px solid rgb(255, 184, 30);
+    margin: 20px 0px;
+}
+
+.guia_lateral{
+    margin: 0px 0px -10px 0px;
+    position: relative;
+    bottom: 500px;
+    left: 725px;
+    width: 250px;   
+}
+#postagens_recentes{
+    background-color: rgb(199, 199, 199);
+    color:rgb(68, 68, 68);
+    font-size: 19px;
+    font-weight: bolder;
+    height: 35px;
+    padding: 10px 0px 0px 20px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 0px;
+}
+
+#leia_mais{
+    color: rgb(255, 184, 30);
+    font-weight: bolder;
+    text-decoration: none;
+}
+#leia_mais:hover{
+    color: white;
+    background-color:rgb(255, 184, 30);
+    margin: 0px;
+    border-radius: 10px;
+    padding: 10px;  
+}
+.categorias_barra_lateral{
+    position: relative;
+    bottom: 400px;
+    left: 725px;
+    width: 250px; 
+}
+
+#categorias{
+    background-color: rgb(199, 199, 199);
+    color:rgb(68, 68, 68);
+    font-size: 19px;
+    font-weight: bolder;
+    height: 35px;
+    padding: 10px 0px 0px 20px;
+    border-radius: 3px;
+    width: 250px;
+    display: block;
+    box-shadow: 0px 0px 5px 0px;
+
+}
+
+#jogos_categoria,  #eletronicos_categoria, #principal_categoria, #informatica_categoria, #celulares_categoria{
+    display: block;
+    padding: 3px 0px 3px 0px;
+    text-decoration: none;
+    color:rgb(255, 184, 30);
+    font-weight: bolder;
+}
+
+#jogos_categoria:hover,  #eletronicos_categoria:hover, #principal_categoria:hover, #informatica_categoria:hover, #celulares_categoria:hover{
+    color: white;
+    background-color: rgb(255, 184, 30);
+    width: 100px;
+    border-radius: 2px;
+}
+
+.corpo2{
+    position:absolute;
+    top: 780px;
+}
+
+#imagem1{
+    border:3px solid rgb(255, 184, 30);
+    margin: 20px 0;
+}
+
+#direitos{
+    font-weight: bolder;
+    text-decoration: none;
+    position: relative;
+    left: 350px;
+    color: rgb(255, 184, 30);
+    padding: 15px;
+    border-radius: 3px;
+}
+
+#direitos:hover{
+    color: white;
+    background-color: rgb(255, 184, 30);
+}
+
+/*page games (jogos)*/
+
+

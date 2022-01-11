@@ -1,0 +1,284 @@
+/*
+1-
+2-
+3-
+4-
+6-
+
+
+
+
+
+*/
+
+/*INÍCIO INDEX.HTML*/
+
+.subBody{
+    background: #fdc012;
+}
+
+header, .nav-2{
+    background: white;
+}
+.nav-2{
+    border-radius: 5px;
+}
+
+h6{
+    padding: 1em 1em;
+}
+
+/*1 - logo*/
+
+
+.fa-fire{
+    color: black;
+    font-size: 3rem;
+}
+
+.fa-firea{
+    font-weight: 700;
+    color: black;
+    font-size: 2rem;
+    text-decoration: none;
+}
+.fa-firea:hover{
+    color: black;
+    text-decoration: none;
+}
+
+/*2 - Search*/
+
+
+.search-input{
+    height: 35px;
+    width: 15vw;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.search-icon{
+    font-size: 1rem;
+    height: 35px;
+    border-radius: 20px 0px 0px 20px;
+    transition: 0.3s;
+}
+.search-icon:hover{
+    cursor: pointer;
+    background: #fdc012;
+}
+
+.search-input-recepcao{
+    width: 60%;
+    
+}
+
+/*Shopping cart*/
+
+.fa-shopping-cart-custom{
+    font-size: 1.2rem;
+    padding: 1em;
+    transition: 0.3s;
+}
+.fa-shopping-cart-custom:hover{
+    cursor: pointer;
+    color: #fdc012;
+}
+
+/*nav bar items*/
+
+.list2 li{
+    padding: 0.5em 1em;
+    border-bottom: 3px solid #343a40;
+    transition: 0.3s;
+}   
+.list2 li:hover{
+    border-bottom: 3px solid #ffbb00;
+}
+.list2 a{
+    color: black;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*Button*/
+
+.btn-custom{
+    padding: 0.5rem 1rem;
+    color: #fff;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.btn-login{
+    color: #343a40;
+}
+.btn-login:hover{
+    background: #fdc012;
+    color: #fff;
+}
+.btn-inscrever{
+    background: #343a40;
+}
+.btn-inscrever:hover{
+    background: #fdc012;
+    color: #fff;
+}
+.btn-custom-toggler{
+    background: black;
+}
+.btn-custom-toggler:hover{
+    background: #343a40;
+}
+
+/*Texto corpo superior*/
+
+.legenda-topo h1{
+    font-weight: 700;
+    
+}
+
+.legenda-topo p{
+    font-size:medium;
+}
+
+.items-general{
+    padding: 3em;
+}
+.items-general a{
+    color: #343a40;
+    transition: 0.3s;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.items-general a:hover{
+    color: #fdc012;
+}
+
+.location{
+    height: 50vh;
+}
+.location iframe{
+    height: 40vh;
+}
+
+/*body-footer*/
+
+.body-footer{
+    background: #fdc012;
+}
+
+.social-media i{
+    font-size:2rem;
+}
+
+.social-media a{
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.fab{
+    padding: 10px;
+}
+
+.fa-facebook:hover{
+    color: rgb(69, 69, 248);
+}
+.fa-twitter:hover{
+    color: rgb(69, 69, 248);
+}
+.fa-google:hover{
+    color: rgb(241, 23, 23);
+}
+.fa-youtube:hover{
+    color: rgb(241, 23, 23);
+}
+
+/*FIM INDEX.HTML*/
+
+/*INÍCIO LOGIN.HTML*/
+
+.body-login{
+
+    margin-top: 12vh;
+}
+
+.body-left{
+    height: 500px;
+    background: url(./img/bg-mulher.png)center center no-repeat ;
+
+   
+}
+
+.body-right{
+    height: 500px;
+}
+
+.text-before-lef{
+    margin-top: 100px;
+    
+    padding: 50px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+.login-facebook{
+    background: #3c589a;
+    border-radius: 5px;
+    color: #fff;
+    width: 60%;
+    padding: 10px 15px;
+}
+.login-facebook:hover{
+    cursor: pointer;
+}
+
+.login-google{
+    border-radius: 5px;
+    background: #de4b39;
+    color: #fff;
+    width: 60%;
+    padding: 10px 15px;
+}
+.login-google:hover{
+    cursor: pointer;
+}
+
+
+
+
+.user-icon i{
+    background: #ffbb00;
+    color: #fff;
+}
+
+.body-right input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px #343a40 solid;
+}
+.section-login{
+    padding: 50px;
+}
+
+.fa-user{
+    color: #343a40;
+}
+
+.container small{
+    font-weight: 700;
+}
+
+.footer-login{
+    position: relative;
+    top: 8.5rem;
+    background: #fdc012;
+}
+
+.footer-login a:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,164 @@
+@keyframes go-back {
+    from {
+      opacity: 0;
+      transform: translatex(1000px);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0);
+    }
+  }
+
+  @keyframes buttonanimation{
+      0% {
+        
+        background-position-x: 0% 50% ;
+      }
+  
+     50% {
+        
+        background-position-x: 100% 50%;
+     }
+    
+      100% {
+        
+        background-position-x: 0% 50% ;
+      }
+  }
+
+body{
+    font-family: 'Merriweather', serif;
+    animation: go-back 1s;
+}
+
+.borda{
+    border: 1px solid red;
+}
+
+.first-body{ /*Body tag*/
+    font-family: 'Merriweather', serif;
+    font-weight: 800;
+    background: url(./img/bg-01.jpg)no-repeat;
+    background-size:cover;
+}
+
+.main-body{
+    padding-top:20px;
+    margin: 0 auto;
+}
+.secundary-body{
+    background: white;
+    height: 45rem;
+    border-radius: 15px;
+}
+
+.secundary-body input{
+    
+    background: transparent;
+    border: none;
+}
+
+.third-body{
+    margin: 0 auto;
+    width: 80%;
+}
+.fourth-body{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.login{
+    font-size: 2.5rem;
+}
+
+.lock-password, .user-username{
+    width: 100%;
+    border-bottom:2px solid #aeadb2;
+}
+.lock-password i, .user-username i,input{
+    color: #aeadb2;
+}
+
+input{
+    width: 80%;
+}
+
+.btn-customdiv{
+    width: 80%;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+.btn-customdiv:hover{
+    padding: 0 100px;
+}
+.btn-custom p:hover{
+    color: #343a40;
+    cursor: pointer;
+}
+
+.btn-custom{
+    border-radius: 50px;
+    border: none;
+    line-height: 45px;
+    background-image: linear-gradient(to right, #46e0ee, #fc19c7);
+    
+}
+
+.btn-custom p{
+    color: #343a40;
+    font-weight: bolder;
+    margin: 0;
+}
+.text-social{
+    margin-top: 10px;
+    font-size: 2.5rem;
+}
+
+.fa-facebook{
+    color: #3b5a99;
+    transition: 0.3s;
+}
+.fa-facebook:hover{
+    cursor: pointer;
+    color: #343a40;
+}
+
+.fa-twitter{
+    color: #429cd6;
+    transition: 0.3s;
+}
+.fa-twitter:hover{
+    cursor: pointer;
+    color: #343a40;
+}
+
+.fa-google{
+    color: #ea4435;
+    transition: 0.3s;
+}
+.fa-google:hover{
+    cursor: pointer;
+    color: #343a40;
+}
+
+.Forgot{
+    font-size: 13px;
+    color: #66696b;
+    transition: 0.5s;
+}
+.Forgot:hover{
+    color: #fc19c7;
+    text-decoration: none;
+}
+.forgotdiv{
+    margin: 15px 0;
+}
+
+.SignUp{
+    margin-top: 80px;
+}
+
+.register{
+    margin-top: 50px;
+    font-size: 13px;
+}

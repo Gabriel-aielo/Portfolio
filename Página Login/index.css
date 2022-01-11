@@ -1,0 +1,184 @@
+#body{
+    background: url(./img/fundo.png)no-repeat center;
+
+}
+
+/*
+------------------------------------------Start Login--------------------------*/
+.body-main{
+    display: inline;
+    margin: 100px 0px 0px 0px;
+}
+
+.login{
+    margin: 150px 0px 0px 0px;
+}
+.login a{
+    color: white;
+}
+.Login-register a{
+    color: black;
+    font-weight:800 ;
+    font-family:cursive;
+    display: inline-block;
+    
+}
+.people-image{
+    color: white;
+    font-size: 50px;
+    width: 4.5rem;
+    border-radius: 50px;
+    margin: 0 auto;
+    position: relative;
+    right: 30px;
+    box-shadow: 0 0 7px 0px black
+}
+.people-image i{
+    position: relative;
+    left: 11px;
+    bottom: 5px;
+    
+}
+
+
+.body-login{
+    background:rgba(255, 255, 255, 0.295);
+    background-size:180%;
+    height: 33rem;
+}
+.display{
+    display: block;
+}
+
+.input{
+    margin-top: 30px;
+    width: 100%;
+}
+.input input{
+    background: transparent;
+    border: none;
+}
+.border-input{
+    width: 80%;
+    border: none;
+    border-bottom:solid 2px black;
+    transition: 0.5s;
+}
+.border-input:hover{
+    border:none;
+    border-bottom: solid 2px #f0849f;
+}
+.input-group-text{
+    border: red 1px solid;
+    background: transparent;
+}
+
+.ml{
+    margin: 0px 0px 0px 50px;
+}
+
+.btn-custom{
+    width: 80%;
+    background: #343a40;
+}
+button a{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.btn-custom:hover{
+    background: #f0849f;
+    color: #343a40;
+}
+.btn-custom2{
+    padding: 10px;
+    background: #343a40;
+    box-shadow:0 0 6px 0px black;
+    transition: 0.3s;
+}
+.btn-custom2:hover{
+    color: white;
+    background: #f0849f;
+}
+
+input{
+    width: 100%;
+}
+
+
+label small{
+    font-weight: bolder;
+}
+
+.forget-passaword{
+    width: 80%;
+    
+}
+.forget-passaword a{
+    color: whitesmoke;
+    font-weight: 900;
+}
+
+.fa-facebook{
+    color: #343a40;
+    font-size: 35px;
+    transition: 0.3s;
+}
+.fa-facebook:hover{
+    color: #f0849f;
+    
+}
+
+.fa-twitter{
+    font-size: 35px;
+    color: #343a40;
+    transition: 0.3s;
+}
+.fa-twitter:hover{
+    color: #f0849f;
+}
+
+.social{
+    width: 80%;
+}
+
+.mr-social{
+    margin-right: 110px;
+}
+
+/*
+------------------------------------------End Login--------------------------*/
+/*
+------------------------------------------início Login--------------------------*/
+
+.body-register{
+    background:rgba(255, 255, 255, 0.295);
+    background-size:180%;
+    height: 500px;
+}
+
+.body-register input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-top: 20px;
+}
+
+.display-register{
+    display: inline-block;
+}
+
+.title{
+    margin: 15px;
+    width: 20%;
+}
+
+.click-here{
+    margin-top: 10px;
+}
+
+.sex{
+    font-weight: 700;
+    margin-right: 15px;
+}
+

@@ -1,0 +1,150 @@
+@keyframes loading{
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes loadingbanners{
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+body{
+   
+    background-size: cover;
+}
+
+.bodyHeader{
+    animation: loading 1s;
+}
+.bodyNavbar{
+    background: #3a2d32;
+}
+.inputSerach input{
+    border: none;
+    
+}
+.inputSerach{
+    border-bottom: 2px solid black ;
+}
+
+.borderRight{
+    padding-right: 2px;
+    border-right:2px solid red ;
+}
+
+.list-custom{
+    animation: loading  0.5s;
+}
+.list-custom input{
+    border: none;
+    background: transparent;
+    
+}
+.list-custom .search{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ffe3dc;
+    border-radius: 0px 10px 10px 0px ;
+}
+.list-custom .search{
+    margin-right: 2px;
+}
+.list-custom .search{
+    margin-right: 9em;
+    margin-left: 1em;
+}
+.list-custom a{
+    padding: 5px 10px;
+    color: #a2ad91;
+    font-weight: bolder;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.list-custom a:hover{
+    color:white;
+    text-decoration: none;
+}
+
+
+.listTop{
+    animation: loading 1.5s;
+}
+.listTop a{
+    color: #a2ad91;
+    font-weight: bolder;
+    transition: 0.2s;
+    font-size: 13px;
+}
+.listTop li{
+    padding: 0px 20px;
+}
+.listTop a:hover{
+    text-decoration: none;
+    color: #3a2d32
+}
+ .fa-heart:hover{
+    color: red;
+}
+.cart a{
+    border-left: 3px solid #a2ad91;
+}
+
+.borderTop{
+    border-top: 3px solid #dbb4ad;
+    border-bottom: 10px solid #a2ad91;
+}
+
+.fa-search{
+    background: #fff;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.marcador{
+    margin: 5px;
+}
+
+.footer{
+    background:black ;
+}
+.espacamento2{
+    padding-bottom: 9vh;
+}
+.bordasuperior{
+    padding-top: 1rem;
+    border-top: 1px dashed #3a2d32;
+}
+
+.borda{
+    padding-bottom: 5px;
+    font-weight:700;
+    border-bottom: 2px solid #3a2d32;
+}
+label:hover{
+    cursor: pointer;
+}
+
+.banners{
+    animation: loadingbanners 1s;
+}
+.carousel-control-prev{
+    background: rgba(0, 0, 0, 0.644);
+    width: 8vw;
+}
+.carousel-control-next{
+    background: rgba(0, 0, 0, 0.644);
+    width: 8vw;
+}
+
